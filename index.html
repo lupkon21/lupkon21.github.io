@@ -1,246 +1,435 @@
-<!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Phantom by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <head>
+        <title>Lukas Protiva</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>"
+        />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+        <!-- Sidebar -->
+        <section id="sidebar">
+            <div class="inner">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Home -->
+            <section id="home" class="wrapper style1 fullscreen fade-up">
+                <div class="inner">
+                    <h1>Hello 🚀</h1>
+                    <p>
+                        My name is Lukas Protiva, and I am student of software development at Electrotechnics High
+                        School in Pilsen. At school and also in my free time, I enjoy programming. I am interested in
+                        both backend and frontend application development. As an IT student, I have gained a strong
+                        foundation in languages such as HTML, CSS, Java, JavaScript, PHP, and more.
+                    </p>
+                    <ul class="actions">
+                        <li><a href="#projects" class="button scrolly">Learn more</a></li>
+                    </ul>
+                </div>
+            </section>
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
+            <!-- Projects -->
+            <section id="projects" class="wrapper style2 spotlights">
+                <section>
+                    <a href="https://figma-json-getter.protiva.tech/" class="image"
+                        ><img src="images/figma-json-getter.png" alt="" data-position="center center"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Figma JSON Getter</h2>
+                            <p>
+                                Figma JSON Getter is a simple web application that allows users to easily retrieve Figma
+                                designs in JSON format. The frontend part is developed in React and the backend is
+                                written in Spring Boot.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="https://figma-json-getter.protiva.tech/" class="button primary"
+                                        >Live demo</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/figma-json-getter.git" class="button"
+                                        >Source code</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="https://covid-app.protiva.tech/" class="image"
+                        ><img src="images/covid-app.png" alt="" data-position="top center"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Covid App</h2>
+                            <p>
+                                The Covid App is a web application that provides daily updates on the Covid-19 pandemic
+                                in the Czech Republic. The application is built using Nette/Latte and provides a
+                                user-friendly interface for viewing the latest Covid-19 statistics.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="https://covid-app.protiva.tech/" class="button primary">Live demo</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/covid-app.git" class="button">Source code</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="https://me.protiva.tech/currency-converter/" class="image"
+                        ><img src="images/currency-converter.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Currency Converter</h2>
+                            <p>
+                                This web application allows users to convert an amount in one currency to another
+                                currency. The application is built using JavaScript and provides a simple, user-friendly
+                                interface for converting currencies.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="https://me.protiva.tech/currency-converter/" class="button primary"
+                                        >Live demo</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/currency-converter.git" class="button"
+                                        >Source code</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="https://me.protiva.tech/js-calculator" class="image"
+                        ><img src="images/js-calculator.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>JS Calculator</h2>
+                            <p>
+                                This project is a JavaScript-based calculator designed to perform basic arithmetic
+                                operations such as addition, subtraction, multiplication, and division. The calculator
+                                is built using HTML, CSS, and JavaScript and is designed to be user-friendly.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="https://me.protiva.tech/js-calculator" class="button primary">Live demo</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/js-calculator.git" class="button"
+                                        >Source code</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="http://me.protiva.tech/pig-game" class="image"
+                        ><img src="images/pig-game.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Pig Game</h2>
+                            <p>
+                                The Pig Game is a web application that simulates a two-player dice game called Pig. The
+                                game is built using JavaScript and provides a user-friendly interface for playing the
+                                game. This projects was completed as a part of a JS online course.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="http://me.protiva.tech/pig-game" class="button primary">Live demo</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/pig-game.git" class="button">Source code</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="https://techshark.protiva.tech/" class="image"
+                        ><img src="images/techshark.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Techshark</h2>
+                            <p>
+                                Techshark is a small PHP demo eshop CMS desined for small bussinesses. It is built with
+                                PHP and MySQL and comes with a simple, user-friendly interface that makes it easy to
+                                manage customer information and reviews.
+                            </p>
+                            <ul class="actions">
+                                <li><a href="https://techshark.protiva.tech/" class="button primary">Live demo</a></li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/techshark.git" class="button">Source code</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="https://me.protiva.tech/zkoukni-to" class="image"
+                        ><img src="images/zkoukni-to.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Zkoukni.to</h2>
+                            <p>
+                                The Zkoukni.to is a simple static website designed to provide users movie and series
+                                recommendations. The website is built using HTML, CSS and features a clean and
+                                user-friendly interface that makes it easy to browse and discover the content.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="https://me.protiva.tech/zkoukni-to" class="button primary">Live demo</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/zkoukni-to.git" class="button">Source code</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="http://me.protiva.tech/demo-course-registration-form" class="image"
+                        ><img src="images/demo-course-registration-form.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Demo Course Registration Form</h2>
+                            <p>
+                                The Demo Course Registration Form is a simple static form designed to retrieve personal
+                                and course-related information from customers. The form is built using HTML, CSS and
+                                provides a user-friendly interface for submitting registration details.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a
+                                        href="http://me.protiva.tech/demo-course-registration-form"
+                                        class="button primary"
+                                        >Live demo</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://github.com/lupkon21/demo-course-registration-form.git"
+                                        class="button"
+                                        >Source code</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="http://me.protiva.tech/personal-website" class="image"
+                        ><img src="images/personal-website.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Personal Website</h2>
+                            <p>
+                                This personal website showcases the career, achievements, and interests of the
+                                professional motorcycle racer Karel Abraham. The website is built using HTML, CSS.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="http://me.protiva.tech/personal-website" class="button primary"
+                                        >Live demo</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/personal-website.git" class="button"
+                                        >Source code</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="http://me.protiva.tech/bmi-calculator" class="image"
+                        ><img src="images/bmi-calculator.png" alt="" data-position="25% 25%"
+                    /></a>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>BMI Calculator</h2>
+                            <p>
+                                This simple BMI Calculator allows users to calculate their body mass index (BMI) by
+                                entering their height and weight. The calculator is built using HTML, CSS, and
+                                JavaScript.
+                            </p>
+                            <ul class="actions">
+                                <li>
+                                    <a href="http://me.protiva.tech/bmi-calculator" class="button primary">Live demo</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/lupkon21/bmi-calculator.git" class="button"
+                                        >Source code</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+            <!-- Skills -->
+            <section id="skills" class="wrapper style3 fade-up">
+                <div class="inner">
+                    <h2>What I do</h2>
+                    <p>
+                        As an IT student specialized in software development, I have gained a strong foundation in many
+                        programming languages. I am interested in backend as well as in frontend development. My goal is
+                        to apply my knowledge and skills to build responsive and user-friendly web applications that can
+                        have a positive impact on people’s lives.
+                    </p>
+                    <div class="features">
+                        <section>
+                            <span class="icon solid major fa-solid fa-sitemap"></span>
 
-						</div>
-					</header>
+                            <h3>Backend development</h3>
+                            <p>
+                                For backend development, I use mainly PHP or Java (Spring Boot). I have also experienced
+                                Node.js a bit. For database management I use SQL (MySQL or MSSQL).
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon solid major fa-code"></span>
+                            <h3>Frontend development</h3>
+                            <p>
+                                For frontend development, I use languages such as HTML, CSS, JavaScript, React, and
+                                Nette/Latte. I create application UX/UI designs in Figma.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon solid major fa-code-branch"></span>
+                            <h3>Project management</h3>
+                            <p>
+                                For project management, I often use Git connected with some cloud storage such as GitHub
+                                or GitLab. For dependency management in a Java project I use Maven.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon solid major fa-box-open"></span>
+                            <h3>Deployment</h3>
+                            <p>For application deployment, I use Docker images, containers and Docker Compose.</p>
+                        </section>
+                        <section>
+                            <span class="icon solid major fa-link"></span>
+                            <h3>Other skills</h3>
+                            <p>
+                                As an IT student I have gained some experience also in the IoT field. I write firmware
+                                for ESP8266 board in Arduino language. For data visualization I used Node-RED.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon solid major fa-tools"></span>
+                            <h3>Software</h3>
+                            <p>
+                                For my work I use various kinds of software such as IntelliJ Idea, VS Code, Postman,
+                                Jira, phpMyAdmin, SSMS, Visual Paradigm, MS Office, Figma, Adobe Photoshop, Power BI,
+                                WordPress, Windows, Linux (basics).
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
+            <!-- Contact -->
+            <section id="contact" class="wrapper style1 fade-up">
+                <div class="inner">
+                    <h2>Get in touch</h2>
+                    <p>
+                        If you have any inquiries, questions, or would like to discuss a potential project, please do
+                        not hesitate to contact me on the email address below. I typically respond within 24-48 hours
+                        and I look forward to hearing from you.
+                    </p>
+                    <div class="split">
+                        <section>
+                            <ul class="contact">
+                                <li>
+                                    <h3>Address</h3>
+                                    <span>
+                                        VOŠ a SPŠE Plzeň<br />
+                                        Koterovská 85<br />
+                                        326 00 Plzeň 2-Slovany<br />
+                                        Czech Republic</span
+                                    >
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <ul class="contact">
+                                <li>
+                                    <h3>Email</h3>
+                                    <a href="mailto: protival@spseplzen.cz">protival@spseplzen.cz</a>
+                                </li>
+                                <li>
+                                    <h3>Social</h3>
+                                    <ul class="icons">
+                                        <li>
+                                            <a href="https://github.com/lupkon21" class="icon brands fa-github"
+                                                ><span class="label">GitHub</span></a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://www.linkedin.com/in/luk%C3%A1%C5%A1-protiva-349673257/"
+                                                class="icon brands fa-linkedin-in"
+                                                ><span class="label">LinkedIn</span></a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>This is Phantom, a free, fully responsive site<br />
-								template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
-								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Magna</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Lorem</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Feugiat</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Tempus</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Aliquam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Veroeros</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic07.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ipsum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic08.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dolor</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Nullam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ultricies</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic11.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dictum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic12.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Pretium</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-							</section>
-						</div>
-					</div>
+        <!-- Footer -->
+        <footer id="footer" class="wrapper style1-alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; 2023 All rights reserved.</li>
+                </ul>
+            </div>
+        </footer>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
